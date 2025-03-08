@@ -12,6 +12,6 @@ router.post("/api/login", login);
 router.post("/api/resend-otp", resendOTP);
 router.post("/api/forgot-password", forgotPassword);
 router.post("/api/new-password", newPassword);
-router.post("/api/room-booking", authMiddleware,roombooking);
+router.post("/api/room-booking", authMiddleware, roombooking);
 
 module.exports = router;
