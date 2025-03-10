@@ -1,4 +1,3 @@
-const mongoose = require('mongoose');
 const Booking = require('../models/booking.model');
 
 const roombooking = async (req, res) => {

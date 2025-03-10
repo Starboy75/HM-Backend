@@ -18,7 +18,6 @@ const BookingSchema = new mongoose.Schema(
       trim: true,
       lowercase: true,
       match: [/.+@.+\..+/, "Please enter a valid email address"],
-      unique: true, // Ensures uniqueness
     },
     contact: {
       type: String,
